@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +48,7 @@
     width: 17vw;
     height: 8vh;
     font-size: 1.4rem;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     /* background-color: #fff; */
     display: flex;
     justify-content: flex-start;
@@ -102,7 +103,7 @@
     background-color: rgb(29, 155, 240);
     color: #fff;
     border: none;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.1rem;
     font-weight: 650;
     border-radius: 20px;
@@ -124,14 +125,14 @@
 
 /* center container */
 .homewhathappen{
-    border-left: 0.3px solid rgb(215, 214, 214);
-    border-right: 0.3px solid rgb(215, 214, 214);
+    border-left: 0.2px solid rgb(36, 36, 36);
+    border-right: 0.2px solid rgb(36, 36, 36);
     
 }
 .homecon{
     color: rgba(255, 255, 255, 0.9);
     font-size: 1.3rem;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding:5px 7px;
     font-weight: 550;
     height: 40px;
@@ -139,16 +140,16 @@
     /* background-color: #fff; */
 }
 .whatshappen{
-    height: 120px;
+    height: auto;
     /* background-color: #fff; */
-    padding-left: 8px;
     box-sizing: border-box;
-
+    
 }
 .whatshappen-1{
     height: 75px;
     /* background-color: rgb(166, 95, 95); */
     display: flex;
+    padding: 8px;
 }
 .whatshappen-1-1{
     width: 70px;
@@ -177,16 +178,25 @@
     background-color:transparent;
     color: #fff;
     font-size: 1.3rem;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 ::placeholder{
     font-size: 1.25rem;
-    font-family: sans-serif;
-    color: rgb(127, 124, 124);
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(182, 180, 180);
 }
 .whatshappen-2{
     height: 45px;
-    background-color: rgb(48, 42, 42);
+    /* background-color: rgb(48, 42, 42); */
+    border-top: 0.2px solid rgb(42, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatshappen-2 p{
+    color: rgb(29, 155, 240);
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .tweet-1{
@@ -201,13 +211,13 @@
     height: auto;
     padding: 10px;
     box-sizing: border-box;
-    border-bottom: 0.3px solid #fff;
+    border-bottom: 0.2px solid rgb(36, 36, 36);
 
 }
 .tweet{/* common code for all tweets */
-    border-left: 0.3px solid #fff;
-    border-right: 0.3px solid #fff;
-    border-top: 0.3px solid #fff;
+    border-left: 0.2px solid rgb(36, 36, 36);
+    border-right: 0.2px solid rgb(35, 35, 35);
+    border-top: 0.2px solid rgb(42, 41, 41);
     display: flex;
     padding: 10px;
 }
@@ -240,16 +250,17 @@
 .profilename{
     font-size: 1rem;
     font-weight: 550;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #fff;
     box-sizing: border-box;
 }
 .tweetdiscription{
 color: #fff;
-font-size: 1.1rem;
+font-size: 1rem;
 }
 .tweetdiscription p{
     padding: 5px 0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .likerepostcomment{
     height: 30px;
@@ -292,7 +303,7 @@ font-size: 1.1rem;
     border-radius: 22px;
     border: none;
     background-color: #202327;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-left: 30px;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.841);
@@ -302,7 +313,7 @@ font-size: 1.1rem;
     outline: none;
 }
 ::placeholder{
-    color: rgb(0, 0, 0);
+    color: rgb(156, 155, 155);
 }
 .rightcon-2{
     width: 35vw;
@@ -314,6 +325,8 @@ font-size: 1.1rem;
     border-radius: 22px;
     background-color: #16181c;
     margin: 10px 0px 5px 30px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .rightcon-3{
     width: 35vw;
@@ -325,4 +338,50 @@ font-size: 1.1rem;
     border-radius: 22px;
     background-color: #16181c;
     margin: 20px 0px 5px 30px;
+}
+.fontcommon{
+    color: #fff;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.fontcommon1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: rgb(197, 197, 197);
+    
+}
+.rightcon-2-1-1{
+    width: 340px;
+    height: 40px;
+    /* background-color: rgb(117, 75, 75); */
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.rightcon-2-1-2{
+    width: 340px;
+    height: auto;
+    /* background-color: rgb(117, 75, 75); */
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 10px; */
+
+}
+.hashtagu:hover{
+    text-decoration: underline;
+}
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.rightcon-2-1-2-2 img{
+    width: 90px;
+    height: 70px;
+    border-radius: 12px;
 }
