@@ -8,17 +8,18 @@
     height: 100vh;
     /* background-color: rgb(239, 142, 142); */
     display: flex;
+    /* background-color: rgb(3, 3, 3); */
 }
 .leftcontainer{
     width: 26vw;
     height: 100vh;
-    background-color: rgb(3, 3, 3);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    background-color: rgb(3, 3, 3);
 }
 .centerPlusright{
-    width: auto;
+    width: 74vw;
     height: 100vh;
     background-color: rgb(3, 3, 3);
     display: flex;
@@ -27,7 +28,7 @@
     overflow-y: scroll;
 }
 .centercontainer{
-    width: 600px;
+    width: 650px;
     height: 100vh;
     background-color: rgb(3, 3, 3);
     /* border: 2px solid rgb(185, 183, 183); */
@@ -92,6 +93,7 @@
     cursor: pointer;
     border-radius: 22px;
     box-sizing: border-box;
+    display: flex;
 }
 .leftconbtn-1-1:hover{
     background-color: rgba(32, 31, 31, 0.763);
@@ -119,7 +121,15 @@
     height: 20vh;
     /* background-color: #fff; */
 }
-
+.lefticonsizing{
+    width: 40px;
+    height: 25px;
+    padding: 0px 0px 0px 5px;
+}
+.leftnotification{
+    width: 50px;
+    height: 30px;
+}
 
 
 
@@ -132,9 +142,9 @@
 .homecon{
     color: rgba(255, 255, 255, 0.9);
     font-size: 1.3rem;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', 'Ubuntu';
     padding:5px 7px;
-    font-weight: 550;
+    font-weight: 650;
     height: 40px;
     box-sizing: border-box;
     /* background-color: #fff; */
@@ -170,6 +180,48 @@
     justify-content: center;
     align-items: center;
 }
+.whatshappen-3{
+    width: 650px;
+    /* background-color: #fff; */
+    height: 50px;
+    display: flex;
+    padding-bottom: 5px;
+}
+.whatshappeniconcon-3-1{
+    width: 250px;
+    /* background-color: rgb(238, 170, 170); */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+}
+.whatshappenbtn-3{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 22px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.whatshappenbtn-3:hover{
+    background-color: rgb(18, 133, 210);
+}
+.whatshappentweetbtn-3-2{
+    width: auto;
+    /* background-color: rgb(236, 182, 76); */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 185px;
+}
+.whatshappenicons{
+    width: 22px;
+    height: 22px;
+}
 .whatshappeninput{
     width: 490px;
     height: 70px;
@@ -200,14 +252,16 @@
 }
 
 .tweet-1{
-    width: 600px;
+    min-width: 600px;
+    max-width: 900px;
     height: auto;
     padding: 10px;
     box-sizing: border-box;
 
 }
 .tweet-2{
-    width: 600px;
+    min-width: 600px;
+    max-width: 900px;
     height: auto;
     padding: 10px;
     box-sizing: border-box;
@@ -298,7 +352,7 @@ font-size: 1rem;
     align-items: center;
 }
 .rightcon-1 input{
-    width: 350px;
+    width: 400px;
     height: 45px;
     border-radius: 22px;
     border: none;
@@ -320,7 +374,7 @@ font-size: 1rem;
     height: auto;
 }
 .rightcon-2-1{
-    width: 350px;
+    width: 400px;
     height: 500px;
     border-radius: 22px;
     background-color: #16181c;
@@ -333,7 +387,7 @@ font-size: 1rem;
     height: auto;
 }
 .rightcon-3-1{
-    width: 350px;
+    width: 400px;
     height: 350px;
     border-radius: 22px;
     background-color: #16181c;
@@ -346,12 +400,12 @@ font-size: 1rem;
 }
 .fontcommon1{
     font-family: 'Poppins', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: rgb(197, 197, 197);
     
 }
 .rightcon-2-1-1{
-    width: 340px;
+    width: 380px;
     height: 40px;
     /* background-color: rgb(117, 75, 75); */
     padding-left: 10px;
@@ -359,12 +413,12 @@ font-size: 1rem;
     padding-top: 5px;
 }
 .rightcon-2-1-2{
-    width: 340px;
+    width: 380px;
     height: auto;
     /* background-color: rgb(117, 75, 75); */
     padding: 10px;
     box-sizing: border-box;
-    padding-top: 12px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
     /* padding-right: 10px; */
