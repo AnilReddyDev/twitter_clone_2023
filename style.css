@@ -320,6 +320,10 @@
 .whatshappenbtn-3:hover {
     background-color: rgb(18, 133, 210);
 }
+.whatshappenbtn-3 a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .whatshappentweetbtn-3-2 {
     width: auto;
